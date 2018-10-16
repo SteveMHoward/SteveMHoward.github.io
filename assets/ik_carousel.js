@@ -83,7 +83,7 @@
 				$me = $(el);
 				$src = $me.find('img').remove().attr('src');
 				
-				$me.$me.attr({
+				$me.attr({
 			    	'aria-hidden': 'true' // hide images from screen readers
 			    })
 				.css({
