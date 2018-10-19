@@ -117,7 +117,7 @@
 				}
 			
 			})
-			.on('click', {'plugin': plugin}, plugin.onClick);
+			.on('click', {'plugin': plugin}, plugin.onClick)
 			.on('keydown', {'plugin': plugin}, plugin.onKeyDown);
 
 			$elem // make the first treeitem focusable
